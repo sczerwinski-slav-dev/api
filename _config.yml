@@ -1,0 +1,13 @@
+title: Slav Dev API
+description: >-
+  Slav Dev API
+author: Slawomir Czerwinski
+
+header_pages:
+  - index.markdown
+
+domain: slav.dev
+url: "https://slav.dev"
+baseurl: "/api"
+
+theme: minima

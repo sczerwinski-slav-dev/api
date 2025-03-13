@@ -1,0 +1,1 @@
+{"id":{{- page.url | split:"/pages/" | last | split:"/" | join:"/" | jsonify }},"title":{{- page.title | jsonify }},"url":{{- page.url | relative_url | jsonify }},"content":{{- page.content | jsonify }}}
