@@ -1,0 +1,223 @@
+openapi: 3.0.3
+info:
+  title: Slav Dev API
+  description: |-
+    _Slav Dev_ website and blog contents API.
+  contact:
+    email: me@slav.dev
+  license:
+    name: BSD 3-Clause License
+    url: https://opensource.org/license/bsd-3-clause
+  version: 1.0.0
+servers:
+  - url: https://slav.dev/api
+tags:
+  - name: pages
+    description: Website pages
+  - name: posts
+    description: Blog posts
+paths:
+  /pages:
+    get:
+      tags:
+        - pages
+      summary: Find all pages
+      description: Return metadata of all pages
+      operationId: getPages
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/PageStub'          
+  /pages/{pageId}:
+    get:
+      tags:
+        - pages
+      summary: Find page by ID
+      description: Return a single page with content
+      operationId: getPageById
+      parameters:
+        - name: pageId
+          in: path
+          description: ID of the page
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Page'          
+        '404':
+          description: Page not found
+  /posts:
+    get:
+      tags:
+        - posts
+      summary: Find all blog posts
+      description: Return metadata of all blog posts
+      operationId: getPosts
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/PostStub'          
+  /posts/{postId}:
+    get:
+      tags:
+        - posts
+      summary: Find blog post by ID
+      description: Return a single blog post with content
+      operationId: getPostById
+      parameters:
+        - name: postId
+          in: path
+          description: ID of the blog post
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Post'          
+        '404':
+          description: Blog post not found
+components:
+  schemas:
+    PageStub:
+      type: object
+      properties:
+        id:
+          type: string
+          description: ID of the page
+          example: about
+        title:
+          type: string
+          description: Title of the page
+          example: About
+        url:
+          type: string
+          description: Page resource path
+          example: /api/pages/about
+    Page:
+      type: object
+      properties:
+        id:
+          type: string
+          description: ID of the page
+          example: about
+        title:
+          type: string
+          description: Title of the page
+          example: About
+        url:
+          type: string
+          description: Page resource path
+          example: /api/pages/about
+        content:
+          type: string
+          format: markdown
+          description: Page content
+          example: This is about page.
+    PostStub:
+      type: object
+      properties:
+        id:
+          type: string
+          description: ID of the blog post
+          example: how-to-write-hello-world
+        title:
+          type: string
+          description: Title of the blog post
+          example: How To Write “Hello, World!”
+        abstract:
+          type: string
+          format: markdown
+          description: Blog post abstract
+          example: >-
+            Learning is a long journey. But it starts with “Hello, World!”.
+        date:
+          type: string
+          format: date
+          description: Blog post date
+        draft:
+          type: boolean
+          description: Is the blog post a draft
+        categories:
+          type: array
+          items:
+            type: string
+            example: "kotlin"
+          description: Blog post categories
+        tags:
+          type: array
+          items:
+            type: string
+            example: "tutorial"
+          description: Blog post tags
+        url:
+          type: string
+          description: Blog post resource path
+          example: /api/pages/about
+    Post:
+      type: object
+      properties:
+        id:
+          type: string
+          description: ID of the blog post
+          example: how-to-write-hello-world
+        title:
+          type: string
+          description: Title of the blog post
+          example: How To Write “Hello, World!”
+        abstract:
+          type: string
+          format: markdown
+          description: Blog post abstract
+          example: >-
+            Learning is a long journey. But it starts with “Hello, World!”.
+        date:
+          type: string
+          format: date
+          description: Blog post date
+        content:
+          type: string
+          format: markdown
+          description: Blog post content
+          example: >-
+            ## Lorem Ipsum
+
+
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+        draft:
+          type: boolean
+          description: Is the blog post a draft
+        categories:
+          type: array
+          items:
+            type: string
+            example: "kotlin"
+          description: Blog post categories
+        tags:
+          type: array
+          items:
+            type: string
+            example: "tutorial"
+          description: Blog post tags
+        url:
+          type: string
+          description: Blog post resource path
+          example: /api/pages/about

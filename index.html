@@ -1,0 +1,25 @@
+---
+layout: page
+---
+
+<div id="swagger-ui"></div>
+
+<script src="{{ '/assets/swagger-ui-bundle.js' | relative_url }}"></script>
+<script src="{{ '/assets/swagger-ui-standalone-preset.js' | relative_url }}"></script>
+
+<script>
+    window.onload = function() {
+        window.ui = SwaggerUIBundle({
+            url: "{{ '/assets/openapi.yaml' | relative_url }}",
+            dom_id: '#swagger-ui',
+            deeplinking: true,
+            presets: [
+                SwaggerUIBundle.presets.apis,
+                SwaggerUIStandalonePreset
+            ],
+            plugins: [
+                SwaggerUIBundle.plugins.DownloadUrl
+            ]
+        })
+    }
+</script>
