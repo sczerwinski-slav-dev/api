@@ -1,8 +1,8 @@
 openapi: 3.0.3
 info:
-  title: Slav Dev API
+  title: Slav.Dev API
   description: |-
-    _Slav Dev_ website and blog contents API.
+    **[Slav.Dev](https://slav.dev/)** website and blog contents API.
   contact:
     email: me@slav.dev
   license:
