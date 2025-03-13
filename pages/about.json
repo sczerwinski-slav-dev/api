@@ -3,4 +3,4 @@ layout: page_json
 title: About
 permalink: /pages/about/
 ---
-This is an example of About page.
+{%- include_relative _content/about.markdown %}
