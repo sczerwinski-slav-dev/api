@@ -171,7 +171,7 @@ components:
         url:
           type: string
           description: Blog post resource path
-          example: /api/pages/about
+          example: /api/posts/how-to-write-hello-world
     Post:
       type: object
       properties:
@@ -220,4 +220,4 @@ components:
         url:
           type: string
           description: Blog post resource path
-          example: /api/pages/about
+          example: /api/posts/how-to-write-hello-world
