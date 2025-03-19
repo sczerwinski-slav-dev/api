@@ -1,0 +1,11 @@
+---
+layout: post_json
+title: "Simplifying Room – Part I: Hilt Setup"
+abstract: |
+  How to use Android Hilt Extensions library to simplify Room database setup in an Android project.
+date: 2021-04-14
+categories: android
+tags: kotlin room hilt
+permalink: /posts/simplifying-room-1/index.json
+---
+{%- include_relative _content/2021-04-14-simplifying-room-1.markdown %}
