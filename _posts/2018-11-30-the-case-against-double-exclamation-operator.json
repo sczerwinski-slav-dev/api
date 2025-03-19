@@ -1,0 +1,10 @@
+---
+layout: post_json
+title: The Case Against Double Exclamation Operator
+abstract: |
+  Why Kotlin not-null assertion operator (a.k.a. double exclamation operator) should be avoided.
+date: 2018-11-30
+categories: kotlin
+permalink: /posts/the-case-against-double-exclamation-operator/index.json
+---
+{%- include_relative _content/2018-11-30-the-case-against-double-exclamation-operator.markdown %}
