@@ -1,0 +1,11 @@
+---
+layout: post_json
+title: Most Common Typographical Errors in Software
+abstract: |
+  All tests are green, spelling is double-checked, and you believe, there are no errors in your software?
+  After reading this article, you may change your mind.
+date: 2017-01-17
+categories: typography
+permalink: /posts/most-common-typographical-errors/index.json
+---
+{%- include_relative _content/2017-01-17-most-common-typographical-errors.markdown %}
