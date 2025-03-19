@@ -54,13 +54,9 @@ There are several problems with this snippet of code:
 2. I have to provide `initialTouchMode`, even though I don’t need to change
   its default value. The second argument is only there to prevent ambiguity,
   because a constructor:
-  ```java
-  public ActivityTestRule(Class<T> activityClass, boolean launchActivity)
-  ```
+  `ActivityTestRule(Class<T> activityClass, boolean launchActivity)`
   would have the same arguments as the already existing one:
-  ```java
-  public ActivityTestRule(Class<T> activityClass, boolean initialTouchMode)
-  ```
+  `ActivityTestRule(Class<T> activityClass, boolean initialTouchMode)`.
 3. The `::class.java` after the activity class makes the code obscure.
 
 All these problems could be easily avoided in Kotlin, but the Espresso library
