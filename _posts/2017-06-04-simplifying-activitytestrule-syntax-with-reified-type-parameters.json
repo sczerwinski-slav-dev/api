@@ -1,0 +1,11 @@
+---
+layout: post_json
+title: Simplifying Android Espresso Test Rules With Reified Type Parameters
+abstract: |
+  How to simplify Android Espresso test rules with reified type parameters in Kotlin
+date: 2017-06-04
+categories: android
+tags: kotlin espresso testing
+permalink: /posts/simplifying-activitytestrule-syntax-with-reified-type-parameters/index.json
+---
+{%- include_relative _content/2017-06-04-simplifying-activitytestrule-syntax-with-reified-type-parameters.markdown %}
