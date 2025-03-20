@@ -1,0 +1,11 @@
+---
+layout: post_json
+title: Functional Square Matrix in Kotlin
+abstract: |
+  How to create a simple functional square matrix in Kotlin programming language
+date: 2016-06-19
+categories: kotlin
+tags: opengl maths algebra
+permalink: /posts/functional-square-matrix-in-kotlin/index.json
+---
+{%- include_relative _content/2016-06-19-functional-square-matrix-in-kotlin.markdown %}
