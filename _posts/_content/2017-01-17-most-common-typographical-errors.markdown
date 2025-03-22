@@ -1,7 +1,6 @@
 ###### Disclaimer
 
-This post was first published on [JAVEO](http://www.javeo.eu) blog,
-which is no longer available.
+This post was first published on [JAVEO] blog, which is no longer available.
 
 For everyone who may find it useful, I’ve made the article available here.
 
@@ -295,16 +294,45 @@ It is always a good idea to consult the style guide before publishing the text.
 
 ## Bibliography
 
-* [*ASCII*, Wikipedia](https://en.wikipedia.org/wiki/ASCII)
-* [*UTF-8*, Wikipedia](https://en.wikipedia.org/wiki/UTF-8)
-* [*Dash*, Wikipedia](https://en.wikipedia.org/wiki/Dash)
-* [*Hyphen*, Wikipedia](https://en.wikipedia.org/wiki/Hyphen)
-* [*Plus and minus signs*, Wikipedia](https://en.wikipedia.org/wiki/Plus_and_minus_signs)
-* [*Quotation mark*, Wikipedia](https://en.wikipedia.org/wiki/Quotation_mark)
-* [*Apostrophe*, Wikipedia](https://en.wikipedia.org/wiki/Apostrophe)
-* [*Prime (symbol)*, Wikipedia](https://en.wikipedia.org/wiki/Prime_(symbol))
-* [*Ellipsis*, Wikipedia](https://en.wikipedia.org/wiki/Ellipsis)
-* [*Space (punctuation)*, Wikipedia](https://en.wikipedia.org/wiki/Space_(punctuation))
-* [*Non-breaking space*, Wikipedia](https://en.wikipedia.org/wiki/Non-breaking_space)
-* [*Unicode Character Search*, FileFormat.Info](http://www.fileformat.info/info/unicode/char/search.htm)
-* [BrainyQuote](http://www.brainyquote.com/)
+* [*ASCII*, Wikipedia][wiki:ascii]
+* [*UTF-8*, Wikipedia][wiki:utf8]
+* [*Dash*, Wikipedia][wiki:dash]
+* [*Hyphen*, Wikipedia][wiki:hyphen]
+* [*Plus and minus signs*, Wikipedia][wiki:plus_minus]
+* [*Quotation mark*, Wikipedia][wiki:quot_mark]
+* [*Apostrophe*, Wikipedia][wiki:apostrophe]
+* [*Prime (symbol)*, Wikipedia][wiki:prime_sym]
+* [*Ellipsis*, Wikipedia][wiki:ellipsis]
+* [*Space (punctuation)*, Wikipedia][wiki:space]
+* [*Non-breaking space*, Wikipedia][wiki:nbsp]
+* [*Unicode Character Search*, FileFormat.Info][fileformat:search]
+* [BrainyQuote]
+
+---
+
+## Credits
+
+* Image by [Willi Heidelbach][pixabay:wilhei-883152]
+  from [Pixabay][pixabay:705674]
+
+
+[wiki:ascii]: https://en.wikipedia.org/wiki/ASCII
+[wiki:utf8]: https://en.wikipedia.org/wiki/UTF-8
+[wiki:dash]: https://en.wikipedia.org/wiki/Dash
+[wiki:hyphen]: https://en.wikipedia.org/wiki/Hyphen
+[wiki:plus_minus]: https://en.wikipedia.org/wiki/Plus_and_minus_signs
+[wiki:quot_mark]: https://en.wikipedia.org/wiki/Quotation_mark
+[wiki:apostrophe]: https://en.wikipedia.org/wiki/Apostrophe
+[wiki:prime_sym]: https://en.wikipedia.org/wiki/Prime_(symbol)
+[wiki:ellipsis]: https://en.wikipedia.org/wiki/Ellipsis
+[wiki:space]: https://en.wikipedia.org/wiki/Space_(punctuation)
+[wiki:nbsp]: https://en.wikipedia.org/wiki/Non-breaking_space
+
+[fileformat:search]: http://www.fileformat.info/info/unicode/char/search.htm
+
+[BrainyQuote]: http://www.brainyquote.com/
+
+[JAVEO]: http://www.javeo.eu
+
+[pixabay:wilhei-883152]: https://pixabay.com/users/wilhei-883152/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=705674
+[pixabay:705674]: https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=705674

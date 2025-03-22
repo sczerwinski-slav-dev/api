@@ -1,10 +1,10 @@
 > I have learned to delegate.
 > 
-> —[Gwen Stefani](https://www.brainyquote.com/quotes/quotes/g/gwenstefan468230.html)
+> —Gwen Stefani
 
 ## The Problem: Boilerplate Code
 
-[`SharedPreferences`](https://developer.android.com/reference/android/content/SharedPreferences.html)
+[`SharedPreferences`][android:SharedPreferences]
 provide a relatively simple way of storing key-value pairs on Android.
 The application might not only use them to save settings, but also to
 keep its persistent state.
@@ -70,7 +70,7 @@ developers since first Android phones hit the market. It allowed creation
 of powerful yet lightweight tools that simplify our lives.
 
 One of those tools, Anko, provides an
-[extension property](https://kotlinlang.org/docs/reference/extensions.html#extension-properties)
+[extension property][kotlin:extension_properties]
 of the `Context` class, called `defaultSharedPreferences`, that eliminates
 the need to explicitly initialize the `SharedPreferences` object.
 Nonetheless, we still need to retrieve and save the values in the same
@@ -94,7 +94,7 @@ into a separate method, or in this case, two methods—`getUsername` and
 `setUsername`.
 
 But since we are using Kotlin, why not declare a property with defined custom
-[getter and setter](https://kotlinlang.org/docs/reference/properties.html#getters-and-setters)?
+[getter and setter][kotlin:properties:get_set]?
 We can also make it an extension property, so it might be referred from any
 `Activity` in our app:
 
@@ -130,7 +130,7 @@ properties in the app… or&nbsp;20… or even&nbsp;50…
 > —Delegated Properties, Kotlin Programming Language Reference
 
 The above quotation perfectly conveys our case. And Kotlin offers us
-a solution—[delegated properties](https://kotlinlang.org/docs/reference/delegated-properties.html).
+a solution—[delegated properties][kotlin:delegated_properties].
 
 So let’s create a delegate that handles values stored in `SharedPreferences`:
 
@@ -170,10 +170,10 @@ var username: String by StringSharedPreferenceDelegate(context, "USERNAME", "")
 
 Probably most Android applications use `SharedPreferences` at some point.
 So I decided to implement generalized version of delegates and put them into
-a reusable [library](https://github.com/sczerwinski/android-delegates-shared-preferences/tree/master).
+a reusable [library][github:android-delegates-shared-preferences].
 
 To use the delegates simply add a dependency to your `build.gradle` (the package
-is available in [_jcenter_](https://bintray.com/sczerwinski/android/delegates-shared-preferences)
+is available in [_jcenter_][jcenter:delegates-shared-preferences]
 repository):
 
 ```gradle
@@ -195,7 +195,7 @@ var username by context.stringSharedPreference("USERNAME", "")
 ```
 
 It might be a good idea to define an additional
-[extension function](https://kotlinlang.org/docs/reference/extensions.html#extension-functions),
+[extension function][kotlin:extension_function],
 at least for those preferences, which are used in many different classes:
 
 ```kotlin
@@ -216,3 +216,28 @@ e.g. `Array`, `List`, `Date`, as well as `data` classes.
 
 In the meantime, feel free to use the existing features.
 The library is still in development stage, but it has been fully tested.
+
+---
+
+## Credits
+
+- Gwen Stefani quote comes from [BrainyQuote][quote:delegate]
+- Image by [Gerd Altmann][pixabay:geralt-9301]
+  from [Pixabay][pixabay:1971162]
+
+
+[android:SharedPreferences]: https://developer.android.com/reference/android/content/SharedPreferences.html
+
+[kotlin:properties:get_set]: https://kotlinlang.org/docs/reference/properties.html#getters-and-setters
+[kotlin:delegated_properties]: https://kotlinlang.org/docs/reference/delegated-properties.html
+[kotlin:extension_properties]: https://kotlinlang.org/docs/reference/extensions.html#extension-properties
+[kotlin:extension_function]: https://kotlinlang.org/docs/reference/extensions.html#extension-functions
+
+[github:android-delegates-shared-preferences]: https://github.com/sczerwinski/android-delegates-shared-preferences/tree/master
+
+[jcenter:delegates-shared-preferences]: https://bintray.com/sczerwinski/android/delegates-shared-preferences
+
+[quote:delegate]: https://www.brainyquote.com/quotes/quotes/g/gwenstefan468230.html
+
+[pixabay:geralt-9301]: https://pixabay.com/users/geralt-9301/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1971162
+[pixabay:1971162]: https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1971162
