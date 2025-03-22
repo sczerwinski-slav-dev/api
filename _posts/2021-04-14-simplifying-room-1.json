@@ -7,5 +7,7 @@ date: 2021-04-14
 categories: android
 tags: kotlin room hilt
 permalink: /posts/simplifying-room-1/index.json
+image: hilt-1.png
+thumbnail: hilt-1-thumb.png
 ---
 {%- include_relative _content/2021-04-14-simplifying-room-1.markdown %}

@@ -2,4 +2,4 @@
 layout: null
 permalink: /posts/
 ---
-[{%- for post in site.posts %}{"id":{{- post.url | split:"/index.json" | first | split:"/posts/" | last | jsonify }},"title":{{- post.title | jsonify }},"abstract":{{- post.abstract | jsonify }},"date":{{- post.date | date:"%Y-%m-%d" | jsonify }},"draft":{{- post.draft | jsonify }},"categories":{{- post.categories | jsonify }},"tags":{{- post.tags | jsonify }},"url":{{- post.url | split:"index.json" | first | relative_url | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor -%}]
+[{%- for post in site.posts %}{"id":{{- post.url | split:"/index.json" | first | split:"/posts/" | last | jsonify }},"title":{{- post.title | jsonify }},"abstract":{{- post.abstract | jsonify }},"date":{{- post.date | date:"%Y-%m-%d" | jsonify }},"draft":{{- post.draft | jsonify }},"categories":{{- post.categories | jsonify }},"tags":{{- post.tags | jsonify }},"image":{{- post.image | jsonify }},"thumbnail":{{- post.thumbnail | jsonify }},"url":{{- post.url | split:"index.json" | first | relative_url | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor -%}]
