@@ -312,8 +312,9 @@ It is always a good idea to consult the style guide before publishing the text.
 
 ## Credits
 
-* Image by [Willi Heidelbach][pixabay:wilhei-883152]
-  from [Pixabay][pixabay:705674]
+- [Image][pixabay:705674]
+  by [Willi Heidelbach][pixabay:wilhei-883152:ref-705674]
+  from [Pixabay][pixabay:ref-705674]
 
 
 [wiki:ascii]: https://en.wikipedia.org/wiki/ASCII
@@ -334,5 +335,6 @@ It is always a good idea to consult the style guide before publishing the text.
 
 [JAVEO]: http://www.javeo.eu
 
-[pixabay:wilhei-883152]: https://pixabay.com/users/wilhei-883152/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=705674
-[pixabay:705674]: https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=705674
+[pixabay:705674]: https://pixabay.com/photos/case-angle-hook-letterpress-brief-705674/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=705674
+[pixabay:wilhei-883152:ref-705674]: https://pixabay.com/users/wilhei-883152/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=705674
+[pixabay:ref-705674]: https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=705674

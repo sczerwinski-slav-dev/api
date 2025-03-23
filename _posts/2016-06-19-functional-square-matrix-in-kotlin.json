@@ -7,7 +7,8 @@ date: 2016-06-19
 categories: kotlin
 tags: opengl maths algebra
 permalink: /posts/functional-square-matrix-in-kotlin/index.json
-image: square-matrix-1.png
-thumbnail: square-matrix-1-thumb.png
+image:
+  name: matrix-1
+  type: webp
 ---
 {%- include_relative _content/2016-06-19-functional-square-matrix-in-kotlin.markdown %}

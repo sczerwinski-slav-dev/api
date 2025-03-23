@@ -7,7 +7,8 @@ date: 2017-06-04
 categories: android
 tags: kotlin espresso testing
 permalink: /posts/simplifying-activitytestrule-syntax-with-reified-type-parameters/index.json
-image: activitytestrule-1.png
-thumbnail: activitytestrule-1-thumb.png
+image:
+  name: espresso-1
+  type: webp
 ---
 {%- include_relative _content/2017-06-04-simplifying-activitytestrule-syntax-with-reified-type-parameters.markdown %}

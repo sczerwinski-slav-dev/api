@@ -155,8 +155,9 @@ important feature, you’re welcome to create a
 ## Credits
 
 - Michael Gove quote comes from [BrainyQuote][quote:migration]
-- Image by [Georg Wietschorke][pixabay:georg_wietschorke-3238642]
-  from [Pixabay][pixabay:1773758]
+- [Image][pixabay:1773758]
+  by [Georg Wietschorke][pixabay:georg_wietschorke-3238642:ref-4493783]
+  from [Pixabay][pixabay:ref-1773758]
 
 
 [simplifying-room-1]: https://slav.dev/posts/simplifying-room-1
@@ -171,10 +172,8 @@ important feature, you’re welcome to create a
 [github:android-room:discussions]: https://github.com/sczerwinski/android-room/discussions
 [github:android-room:issues]: https://github.com/sczerwinski/android-room/issues/new/choose
 
-[Pixabay:Georg_Wietschorke]: https://pixabay.com/users/georg_wietschorke-3238642/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1773758
-[Pixabay:migration]: https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1773758
-
 [quote:migration]: https://www.brainyquote.com/quotes/michael_gove_760072
 
-[pixabay:georg_wietschorke-3238642]: https://pixabay.com/users/georg_wietschorke-3238642/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1773758
-[pixabay:1773758]: https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1773758
+[pixabay:1773758]: https://pixabay.com/photos/avocets-north-sea-bird-migration-1773758/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1773758
+[pixabay:georg_wietschorke-3238642:ref-4493783]: https://pixabay.com/users/georg_wietschorke-3238642/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1773758
+[pixabay:ref-1773758]: https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1773758

@@ -198,7 +198,9 @@ important feature, you’re welcome to create a
 ## Credits
 
 - “The Mark of Athena” quote comes from [Quotes.Pub][quote:riordan]
-- Image by [rihaij][pixabay:rihaij-2145] from [Pixabay][pixabay:1729902]
+- [Image][pixabay:1729902]
+  by [rihaij][pixabay:rihaij-2145:ref-1729902]
+  from [Pixabay][pixabay:ref-1729902]
 
 
 [simplifying-room-2]: https://slav.dev/posts/simplifying-room-2
@@ -212,10 +214,8 @@ important feature, you’re welcome to create a
 [github:android-hilt:discussions]: https://github.com/sczerwinski/android-hilt/discussions
 [github:android-hilt:issues]: https://github.com/sczerwinski/android-hilt/issues/new/choose
 
-[Pixabay:rihaij]: https://pixabay.com/users/rihaij-2145/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1729902
-[Pixabay:dagger]: https://pixabay.com/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1729902
-
 [quote:riordan]: https://quotes.pub/q/annabeth-gripped-the-hilt-of-her-dagger-a-bounty-on-our-head-353304
 
-[pixabay:rihaij-2145]: https://pixabay.com/users/rihaij-2145/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1729902
-[pixabay:1729902]: https://pixabay.com/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1729902
+[pixabay:1729902]: https://pixabay.com/photos/weapon-knife-blade-dagger-1729902/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1729902
+[pixabay:rihaij-2145:ref-1729902]: https://pixabay.com/users/rihaij-2145/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1729902
+[pixabay:ref-1729902]: https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1729902

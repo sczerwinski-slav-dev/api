@@ -7,7 +7,8 @@ date: 2021-06-20
 categories: android
 tags: kotlin room
 permalink: /posts/simplifying-room-2/index.json
-image: migration-1.png
-thumbnail: migration-1-thumb.png
+image:
+  name: migration-1
+  type: webp
 ---
 {%- include_relative _content/2021-06-20-simplifying-room-2.markdown %}

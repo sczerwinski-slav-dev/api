@@ -6,7 +6,8 @@ abstract: |
 date: 2018-11-30
 categories: kotlin
 permalink: /posts/the-case-against-double-exclamation-operator/index.json
-image: no-double-exclamation-1.png
-thumbnail: no-double-exclamation-1-thumb.png
+image:
+  name: double-exclamation-mark-1
+  type: webp
 ---
 {%- include_relative _content/2018-11-30-the-case-against-double-exclamation-operator.markdown %}

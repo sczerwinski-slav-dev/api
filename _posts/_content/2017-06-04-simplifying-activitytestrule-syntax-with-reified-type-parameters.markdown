@@ -129,3 +129,16 @@ Full implementation with examples is available [here](https://gist.github.com/sc
 * [_Inline Functions_, Kotlin Programming Language Reference](https://kotlinlang.org/docs/reference/inline-functions.html)
 * [Espresso Documentation](https://google.github.io/android-testing-support-library/docs/espresso/index.html)
 * [_Testing UI for a Single App_, Android Developers](https://developer.android.com/training/testing/ui-testing/espresso-testing.html)
+
+---
+
+## Credits
+
+- [Image][pixabay:1234649]
+  by [günter][pixabay:moritz320-1260270:ref-1234649]
+  from [Pixabay][pixabay:ref-1234649]
+
+
+[pixabay:1234649]: https://pixabay.com/photos/drunk-espresso-espresso-cup-coffee-1234649/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1234649
+[pixabay:moritz320-1260270:ref-1234649]: https://pixabay.com/users/moritz320-1260270/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1234649
+[pixabay:ref-1234649]: https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1234649

@@ -305,6 +305,9 @@ Full implementation of `SquareMatrix` class can be found at
 ## Credits
 
 - Will Smith quote comes from [BrainyQuote][quote:matrix]
+- [Image][pixabay:4493783]
+  by [Micha][pixabay:pixxlteufel-117549:ref-4493783]
+  from [Pixabay][pixabay:ref-4493783]
 
 
 [wiki:affine_transform]: https://en.wikipedia.org/wiki/Affine_transformation
@@ -321,3 +324,7 @@ Full implementation of `SquareMatrix` class can be found at
 [gist:SquareMatrix]: https://gist.github.com/sczerwinski/3d98549ebb8c48f7b4b38e898e30fb30
 
 [quote:matrix]: https://www.brainyquote.com/quotes/will_smith_451172
+
+[pixabay:4493783]: https://pixabay.com/photos/matrix-data-network-software-code-4493783/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4493783
+[pixabay:pixxlteufel-117549:ref-4493783]: https://pixabay.com/users/pixxlteufel-117549/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4493783
+[pixabay:ref-4493783]: https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4493783 

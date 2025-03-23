@@ -8,7 +8,8 @@ date: 2017-05-17
 categories: android
 tags: kotlin
 permalink: /posts/delegating-android-shared-preferences-in-kotlin/index.json
-image: delegating-1.png
-thumbnail: delegating-1-thumb.png
+image:
+  name: delegating-1
+  type: webp
 ---
 {%- include_relative _content/2017-05-17-delegating-android-shared-preferences-in-kotlin.markdown %}

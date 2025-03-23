@@ -222,8 +222,9 @@ The library is still in development stage, but it has been fully tested.
 ## Credits
 
 - Gwen Stefani quote comes from [BrainyQuote][quote:delegate]
-- Image by [Gerd Altmann][pixabay:geralt-9301]
-  from [Pixabay][pixabay:1971162]
+- [Image][pixabay:1971162]
+  by [Gerd Altmann][pixabay:geralt-9301:ref-1971162]
+  from [Pixabay][pixabay:ref-1971162]
 
 
 [android:SharedPreferences]: https://developer.android.com/reference/android/content/SharedPreferences.html
@@ -239,5 +240,6 @@ The library is still in development stage, but it has been fully tested.
 
 [quote:delegate]: https://www.brainyquote.com/quotes/quotes/g/gwenstefan468230.html
 
-[pixabay:geralt-9301]: https://pixabay.com/users/geralt-9301/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1971162
-[pixabay:1971162]: https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1971162
+[pixabay:1971162]: https://pixabay.com/photos/delegate-board-instruct-empower-1971162/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1971162
+[pixabay:geralt-9301:ref-1971162]: https://pixabay.com/users/geralt-9301/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1971162
+[pixabay:ref-1971162]:https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1971162"
