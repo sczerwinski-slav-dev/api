@@ -168,6 +168,8 @@ components:
             type: string
             example: "tutorial"
           description: Blog post tags
+        image:
+          $ref: '#/components/schemas/Image'
         url:
           type: string
           description: Blog post resource path
@@ -217,7 +219,18 @@ components:
             type: string
             example: "tutorial"
           description: Blog post tags
+        image:
+          $ref: '#/components/schemas/Image'
         url:
           type: string
           description: Blog post resource path
           example: /api/posts/how-to-write-hello-world
+    Image:
+      type: object
+      properties:
+        name:
+          type: string
+          example: "hello"
+        type:
+          type: string
+          example: "webp"
