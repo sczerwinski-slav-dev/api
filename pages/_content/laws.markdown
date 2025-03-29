@@ -3,8 +3,8 @@
 ### Zeroeth Law
 
 If a software project has a code complexity equal
-to a "Hello, World!" project, it is effectively
-a "Hello, World!" project.
+to a “Hello, World!” project, it is effectively
+a “Hello, World!” project.
 
 ### First Law
 
