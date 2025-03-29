@@ -1,0 +1,6 @@
+---
+layout: page_json
+title: Laws
+permalink: /pages/laws/
+---
+{%- include_relative _content/laws.markdown %}
